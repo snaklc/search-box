@@ -54,6 +54,10 @@ export class AppComponent {
     this.city = "";
     this.arrow = true;
     this.cancel = false;
+    
+    if (this.status === false) {
+      this.status = true;
+    }
 
   }
 
