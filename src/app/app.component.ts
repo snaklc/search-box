@@ -31,10 +31,6 @@ export class AppComponent {
 
   ];
   
-   @HostListener('click') onClick() {
-    this.status = true;
-
-  }
 
   clickToArrow() {
     this.status = !this.status;
