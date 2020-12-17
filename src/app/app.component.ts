@@ -30,6 +30,11 @@ export class AppComponent {
     'Bartın', 'Ardahan', 'Iğdır', 'Yalova', 'Karabük', 'Kilis', 'Osmaniye', 'Düzce'
 
   ];
+  
+   @HostListener('click') onClick() {
+    this.status = true;
+
+  }
 
   clickToArrow() {
     this.status = !this.status;
